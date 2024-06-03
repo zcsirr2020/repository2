@@ -1,0 +1,6 @@
+在每台Presto服务的/presto_home/etc/catalog目录下，新建文件mysql.properties，设置以下属性：
+
+connector.name=mysql
+connection-url=jdbc:mysql://192.168.88.80:3306?enabledTLSProtocols=TLSv1.2&useUnicode=true&characterEncoding=utf8
+connection-user=root
+connection-password=123456
